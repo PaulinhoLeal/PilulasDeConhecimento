@@ -41,41 +41,41 @@
     </div>
     <div>
         <h3>Github</h3>
-        <p>Criar, armazenar, gerenciar e compartilhar código.</p> <!-- Melhorar aqui -->
+        <p>Permite criar, armazenar, gerenciar, compartilhar código, além de muitas outras coisas.</p> <!-- Melhorar aqui -->
     </div>
 </div>
 
-
+****
 <div>
     <h2 style="text-align:center;">Comando Basicos</h2>
     <p>Para visualizar os comandos basicos e mais usados do Git, basta digitar "git" em seu git bash.</p>
-    <p>Obs.: comandos em negrito sao mais usados.</p>
+    <p>Obs.: existem outros comandos do git, mas na maioria dos casos os comandos abaixo irao sanar suas necessidades.</p>
     <div>
         <h3>Comandos mais utilizado</h3>
         <ul>
             <h4>iniciar uma área de trabalho</h4>
-            <li><strong>clone</strong> - Clonar um repositório em um novo diretório
-            <li><strong>init</strong> - Crie um repositório Git vazio ou reinicialize um existente
+            <li><code>clone</code> - Clonar um repositório em um novo diretório
+            <li><code>init</code> - Crie um repositório Git vazio ou reinicialize um existente
         <br>
             <h4>Trabalhar na mudança atual</h4>
-            <li><strong>add</strong> - Adicione o conteúdo do arquivo ao índice
-            <li>mv - Mover ou renomear um arquivo, diretório ou link simbólico
-            <li>restore - Restaurar arquivos da árvore de trabalho
-            <li>rm -  Remove arquivos da árvore de trabalho e do índice
+            <li><code>add</code> - Adicione o conteúdo do arquivo ao índice
+            <li><code>mv</code> - Mover ou renomear um arquivo, diretório ou link simbólico
+            <li><code>restore</code> - Restaurar arquivos da árvore de trabalho
+            <li><code>rm</code> -  Remove arquivos da árvore de trabalho e do índice
         <br>
             <h4>Examinar a história e o status</h4>
-            <li><strong>status</strong> - Mostrar o status da árvore de trabalho
-            <li>log - Mostrar registros de commit
+            <li><code>status</code> - Mostrar o status da árvore de trabalho
+            <li><code>log</code> - Mostrar registros de commit
         <br>
             <h4>Adicionar, marcar e ajustar sua história de commits</h4>
-            <li>branch - Lista, cria, ou deleta branches
-            <li><strong>commit</strong> - Registrar alterações no repositório
-            <li>merge - Junta duas ou mais branches
-            <li>rebase - Junta duas ou mais branches organizando seus históricos para tratar conflitos
+            <li><code><a href="#">branch</a></code> - Lista, cria, ou deleta branches
+            <li><code>commit</code> - Registrar alterações no repositório
+            <li><code>merge</code> - Junta duas ou mais branches
+            <li><code>rebase</code> - Junta duas ou mais branches organizando seus históricos para tratar conflitos
         <br>
-            <h4>Colaboraçao</h4>
-            <li><strong>push</strong> - Sincroniza seus repositório local com repositório remoto
-            <li><strong>pull</strong> -  Baixa outro repositório remoto e integra com outro repositório local ou branch local
+            <h4><a href="#">Colaboraçao</a></h4>
+            <li><code>push</code> - Sincroniza seus repositório local com repositório remoto
+            <li><code>pull</code> -  Baixa outro repositório remoto e integra com outro repositório local ou branch local
         </ul>
     </div>
     <div>
@@ -88,31 +88,25 @@
     </div>
 </div>
 <div>
-<h2  style="text-align:center;">Versionamento com Git</h2>
+    <h2  style="text-align:center;">Versionamento com Git</h2>
     <p>Após realizar seus commits/checkpoints, o Git guarda-os em um histórico representado abaixo:</p>
-  <img src="assets\img\HistoricoDoGit.png"/> <!-- Slk mo preguica-->
+    <img src="assets\img/HistoricoDoGit.png"/>
+    <p style="text-align:center;">C0 = Commit 0 | C1 = Commit 1 | C2 = Commit 2<br>master e iss53= nome da branch atual</p>
+    <p>A cada commit realizado, o novo commit aponta uma referencia para o commit anterior, assim como as setas repesentam na imagem, preservando seu historico.</p>
 <div>
 
-## Como Vincular Git ao Github(Remoto)
+<div>
+    <h2>Como Vincular Git ao Github(Remoto)</h2>
+    <h3>Do Github para o Git</h3>
+    <!--Criar o processo-->
+    <h3>Do Git para o Github</h3>
+    <p>Para vincular do Git ao Github, precisamos dar instrucoes de configuracao ao Git indicando qual repositório remoto queremos vincular ao repositório local que estamos trabalhando, alem da branch atual e da branch remota.</p>
+    <p>Caso seu repositório do Github nao tenha nenhuma branch, o desenvolvedor pode simplesmente informar o repositório que deseja vincular que o Git configura, por padrao, a branch do Git com a do Github</p>
 
-### Do Github para o Git
+</div>
 
-//Criar o processo
+<h2>Como usar Branch</h2>
+<p>Conteudo futuro...</p>
 
-### Do Git para o Github
-
-![Git Process]("PilulasDeConhecimento\git\assets\img\GitProcess.PNG")
-
-- A imagem abaixo ilustra como o Git
-- "Working Directory" - "Pasta de Trabalho"
-- "Staging Area" - "Area de Preparo"
-- "Local Repo" - "Repositório Local"
-- "Remote Repo" - "Repositório Remoto"
-
-## Como usar Branch
-
-- Conteudo futuro...
-
-## Como trabalhar em equipe com outros desenvolvedores
-
-- Conteudo Futuro...
+<h2>Como trabalhar em equipe com outros desenvolvedores</h2>
+<p>Conteudo Futuro...</p>
